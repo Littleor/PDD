@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"hc-sr04\startup_stm32f103xb.o"
+"hc-sr04\main.o"
+"hc-sr04\stm32f1xx_it.o"
+"hc-sr04\stm32f1xx_hal_msp.o"
+"hc-sr04\dwt_delay.o"
+"hc-sr04\ssd1306.o"
+"hc-sr04\ssd1306_fonts.o"
+"hc-sr04\ssd1306_tests.o"
+"hc-sr04\stm32f1xx_hal_gpio_ex.o"
+"hc-sr04\stm32f1xx_hal_i2c.o"
+"hc-sr04\stm32f1xx_hal.o"
+"hc-sr04\stm32f1xx_hal_rcc.o"
+"hc-sr04\stm32f1xx_hal_rcc_ex.o"
+"hc-sr04\stm32f1xx_hal_gpio.o"
+"hc-sr04\stm32f1xx_hal_dma.o"
+"hc-sr04\stm32f1xx_hal_cortex.o"
+"hc-sr04\stm32f1xx_hal_pwr.o"
+"hc-sr04\stm32f1xx_hal_flash.o"
+"hc-sr04\stm32f1xx_hal_flash_ex.o"
+"hc-sr04\stm32f1xx_hal_exti.o"
+"hc-sr04\stm32f1xx_hal_tim.o"
+"hc-sr04\stm32f1xx_hal_tim_ex.o"
+"hc-sr04\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "HC-SR04\HC-SR04.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HC-SR04.map" -o HC-SR04\HC-SR04.axf

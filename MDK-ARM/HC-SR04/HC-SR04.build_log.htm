@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Little Ming, Littelor, LIC=S5ITG-VNFAG-C2UL6-DSHAI-L22W7-SZLRR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Littleor\Desktop\STM32\Project\HC-SR04\MDK-ARM\HC-SR04.uvprojx
+Project File Date:  11/01/2019
+
+<h2>Output:</h2>
+Build target 'HC-SR04'
+compiling main.c...
+../Inc/ssd1306_tests.h(4): warning:  #1295-D: Deprecated declaration ssd1306_TestBorder - give arg types
+  void ssd1306_TestBorder();
+../Inc/ssd1306_tests.h(5): warning:  #1295-D: Deprecated declaration ssd1306_TestFonts - give arg types
+  void ssd1306_TestFonts();
+../Inc/ssd1306_tests.h(6): warning:  #1295-D: Deprecated declaration ssd1306_TestFPS - give arg types
+  void ssd1306_TestFPS();
+../Inc/ssd1306_tests.h(7): warning:  #1295-D: Deprecated declaration ssd1306_TestAll - give arg types
+  void ssd1306_TestAll();
+../Src/main.c(114): warning:  #223-D: function "sprintf" declared implicitly
+                sprintf(s, "Time: %d", time++);
+../Src/main.c(115): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                ssd1306_WriteString(s, Font_7x10, White);
+../Src/main.c(120): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                        ssd1306_WriteString(s, Font_11x18, White);
+../Src/main.c(126): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                        ssd1306_WriteString(s, Font_7x10, White);
+../Src/main.c(133): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                ssd1306_WriteString(s, Font_7x10, White);
+../Src/main.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=9720 RO-data=5612 RW-data=72 ZI-data=2232  
+FromELF: creating hex file...
+"HC-SR04\HC-SR04.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Littleor\Desktop\STM32\Project\HC-SR04\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
